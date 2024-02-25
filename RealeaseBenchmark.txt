@@ -1,0 +1,32 @@
+2024-02-24T23:27:29+03:00
+Running C:\Programming\ParallelProgramming\MultMatrix\x64\Release\Benchmark.exe
+Run on (4 X 2600 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x2)
+  L1 Instruction 64 KiB (x2)
+  L2 Unified 512 KiB (x2)
+  L3 Unified 4096 KiB (x1)
+-------------------------------------------------------------------------------------------------
+Benchmark                                                       Time             CPU   Iterations
+-------------------------------------------------------------------------------------------------
+MatrixFixture/BM_MatrixMultiplication_2d_512x512            0.652 s         0.477 s             2
+MatrixFixture/BM_MatrixMultiplication_2d_1024x1024           5.84 s          4.03 s             1
+MatrixFixture/BM_MatrixMultiplication_2d_2048x2048           74.8 s          52.0 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_512x512_ijk        0.641 s         0.477 s             2
+MatrixFixture/BM_MatrixMultiplication_1d_1024x1024_ijk       5.99 s          4.23 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_2048x2048_ijk       69.7 s          49.3 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_512x512_ikj        0.605 s         0.461 s             2
+MatrixFixture/BM_MatrixMultiplication_1d_1024x1024_ikj       4.91 s          3.42 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_2048x2048_ikj       39.8 s          28.4 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_512x512_jik        0.641 s         0.438 s             2
+MatrixFixture/BM_MatrixMultiplication_1d_1024x1024_jik       5.37 s          3.95 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_2048x2048_jik       73.1 s          52.0 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_512x512_jki        0.714 s         0.500 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_1024x1024_jki       10.6 s          7.30 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_2048x2048_jki        222 s           153 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_512x512_kij        0.631 s         0.375 s             2
+MatrixFixture/BM_MatrixMultiplication_1d_1024x1024_kij       5.14 s          3.50 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_2048x2048_kij       41.2 s          26.6 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_512x512_kji        0.704 s         0.469 s             2
+MatrixFixture/BM_MatrixMultiplication_1d_1024x1024_kji       10.4 s          6.77 s             1
+MatrixFixture/BM_MatrixMultiplication_1d_2048x2048_kji        219 s           138 s             1
